@@ -1,2 +1,2 @@
 # Python
-This repo included all the codes I have written while learning a Python course myself. 
+This repo included all the codes I have written while learning Python through an online course. 
