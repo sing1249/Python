@@ -23,10 +23,7 @@ while len(guessed_states) < 50:
         tal.goto(x_cor, y_cor)
         tal.write(answer_state, font=('arial', 8, 'normal'))
     if answer_state.lower() == "exit":
-        missing_states = []
-        for states in allstates:
-            if states not in guessed_states:
-                missing_states.append(states)
+        missing_states = [state for state in allstates if state not in guessed_states]
         data = pandas.DataFrame(missing_states)
         data.to_csv("States_to_learn.csv")
         break
