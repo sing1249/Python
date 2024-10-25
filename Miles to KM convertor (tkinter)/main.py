@@ -1,8 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.title("Miles to KM converto")
-window.minsize(width=400, height=200)
+window.title("Miles to KM convertor")
 window.config(padx=20, pady=20)
 
 #Creating Entry field for the user to enter miles.
