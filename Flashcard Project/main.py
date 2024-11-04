@@ -34,7 +34,7 @@ def new_word():
 
 def known():
     all_words.remove(selected_card) #Removes the current word shown from the list that was generated from all words.
-    print(len(all_words))
+    #print(len(all_words))
     data = pandas.DataFrame(all_words)
     data.to_csv("data/words_to_learn.csv", index=False) #Creates a new file that has all words excluding the one that user knows.
     new_word() #Will flip the card back to french when green button is pressed.
