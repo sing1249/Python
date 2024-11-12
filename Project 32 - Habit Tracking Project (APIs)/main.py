@@ -13,8 +13,8 @@ user_parameters = {
     "notMinor": "yes",
 }
 
-# response = requests.post(url=pixela_endpoint, json=user_parameters) #To complete the post request.
-# print(response.text)
+response = requests.post(url=pixela_endpoint, json=user_parameters) #To complete the post request.
+print(response.text)
 
 #Creating a graph
 
@@ -30,8 +30,8 @@ headers = {
     "X-USER-TOKEN": TOKEN,
 }
 
-# response = requests.post(url=graph_endpoint, json=graph_params, headers=headers)
-# print(response.text)
+response = requests.post(url=graph_endpoint, json=graph_params, headers=headers)
+print(response.text)
 
 #Posting a pixel to the graph
 
@@ -43,8 +43,8 @@ additon_params = {
     "quantity": "15",
 }
 
-# response = requests.post(url=addition_endpoint, json=additon_params, headers=headers)
-# print(response.text)
+response = requests.post(url=addition_endpoint, json=additon_params, headers=headers)
+print(response.text)
 
 
 #Updating the data that is already posted using put requests.
@@ -53,8 +53,8 @@ update_params = {
     "quantity": "11",
 }
 
-# response = requests.put(url=update_endpoint, json=update_params, headers=headers)
-# print(response.text)
+response = requests.put(url=update_endpoint, json=update_params, headers=headers)
+print(response.text)
 
 
 #Deleting the data - Will delete data for yesterday as today is getting the date of yesterday.
