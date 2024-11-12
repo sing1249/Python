@@ -1,18 +1,22 @@
 import requests
 from twilio.rest import Client
+import os
+
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
 
-news_api_key = "94a6ed044cd24caab7f2381476a030e7"
-stock_api_key = "94NEC2UQJ7LAIDO4"
+STOCK_API_KEY = os.getenv("STOCK_API_KEY")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 
 #Getting the price for Tesla Stock.
 stock_url ="https://www.alphavantage.co/query"
 stock_parameters = {
     "function": "TIME_SERIES_INTRADAY",
     "symbol": STOCK,
-    "apikey": stock_api_key,
+    "apikey": STOCK_API_KEY,
     "interval": "60min"
 }
 
@@ -37,7 +41,7 @@ print(percentage)
 news_url = "https://newsapi.org/v2/everything"
 news_parameters = {
     "q": COMPANY_NAME,
-    "apiKey": news_api_key,
+    "apiKey": NEWS_API_KEY,
     "from": "2024-11-07",
     "to": "2024-11-08",
 }
@@ -54,8 +58,8 @@ if percentage > 5:
 
 
     #Sending message through Twilio
-    account_sid = 'AC6e8a87c5a98977a711cb7aa82429162d'
-    auth_token = '2e4170a37502681eccbfc80fd54cefcd'
+    account_sid = TWILIO_ACCOUNT_SID
+    auth_token = TWILIO_AUTH_TOKEN
     client = Client(account_sid, auth_token)
 
     for every_message in message_list:
