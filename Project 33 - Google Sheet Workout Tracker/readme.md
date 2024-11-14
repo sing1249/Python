@@ -5,7 +5,7 @@ This Python script tracks  workout and logs the data to a Google Sheets spreadsh
 
 ## Screenshots of the code being execited
 ### Inputting the workout data
-[!Input]()
+![Input](Input.png)
 
 ### Data being added into Google Sheets
-[!Data]()
+![Data](Data.png)
