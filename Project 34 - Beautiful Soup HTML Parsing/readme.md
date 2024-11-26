@@ -1,8 +1,3 @@
-
-Here's the README.md content in Markdown format:
-
-markdown
-Copy code
 # 📰 Hacker News Scraper
 
 This Python script scrapes the latest articles from [Hacker News](https://news.ycombinator.com) and identifies the most popular article based on upvotes.
