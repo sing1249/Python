@@ -1,7 +1,7 @@
 # 🏠 Zillow Clone Scraper and Google Form Automation
 
 ![](demo.gif)
-![](sheets_result.png)
+![](sheets_results.png)
 
 This project scrapes real estate listing data (addresses, prices, and links) from a Zillow-clone website and automates the process of submitting the data into a Google Form using **BeautifulSoup** and **Selenium**.
 
