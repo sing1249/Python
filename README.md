@@ -23,7 +23,9 @@ This repository reflects my progress through the course and my understanding of 
 - 🧮 **CSV Data Handling**  
 - 📊 **Data Analysis with Pandas**  
 - 🕵️‍♂️ **Web Automation with Selenium**  
-- 🛡️ **Error and Exception Handling**  
+- 🛡️ **Error and Exception Handling**
+- ⚙️ **Flask**
+- 🎨 **Jinja**
 
 ---
 
