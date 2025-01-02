@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}Login {% endblock %}
+{% block content %}
+        <div class="container">
+		<h1>Login</h1>
+			<!-- Creating form elements using the WT forms-->
+			<!-- using the render_form from bootstrap5 creating a form-->
+			{{ render_form(form) }}
+        </div>
+{% endblock %}
