@@ -26,6 +26,8 @@ This repository reflects my progress through the course and my understanding of 
 - 🛡️ **Error and Exception Handling**
 - ⚙️ **Flask**
 - 🎨 **Jinja**
+- 📋 **WTForms and Form Validation in Flask**
+- 🎨 **Integrating Bootstrap for Form Rendering in Flask**
 
 ---
 
