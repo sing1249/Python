@@ -20,6 +20,7 @@ This is a Flask-based authentication system that includes user registration, log
 - SQLite  
 
 ## Project Structure
+```
 flask-authentication-system/
 │── static/
 │   ├── files/
@@ -33,4 +34,5 @@ flask-authentication-system/
 │── requirements.txt
 │── users.db (generated at runtime)
 │── README.md
+```
 
