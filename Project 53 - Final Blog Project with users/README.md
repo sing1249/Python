@@ -48,3 +48,6 @@ This is a fully functional blog application built with Flask. It allows users to
 - **Werkzeug Security** - Password hashing
 - **Gravatar** - Profile images for users
 - **SQLite** - Database
+
+## Demo
+![](blogs.gif)
