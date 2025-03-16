@@ -12,22 +12,25 @@ This repository showcases the projects I have completed as part of my journey to
 ---
 
 ## 📚 **Learning Journey**  
-This repository reflects my progress through the course and my understanding of Python fundamentals, including:  
-- 🐍 **Data Types and Variables**  
-- 🌀 **Loops and Conditional Statements**  
-- 📊 **Data Structures (Lists, Dictionaries, Tuples)**  
-- 🔧 **Functions and Modules**  
-- 🕹️ **OOP (Object-Oriented Programming)**  
-- 🎨 **GUI with Tkinter**  
-- 🌐 **APIs and Web Scraping**  
-- 🧮 **CSV Data Handling**  
-- 📊 **Data Analysis with Pandas**  
-- 🕵️‍♂️ **Web Automation with Selenium**  
-- 🛡️ **Error and Exception Handling**
-- ⚙️ **Flask**
-- 🎨 **Jinja**
-- 📋 **WTForms and Form Validation in Flask**
-- 🎨 **Integrating Bootstrap for Form Rendering in Flask**
+This repository reflects my continuous growth in Python, covering:  
+- 🐍 **Core Python Concepts** (Data Types, Variables, Loops, Conditionals)  
+- 📊 **Data Structures** (Lists, Dictionaries, Tuples, Sets)  
+- 🔧 **Functions, Modules, and Decorators**  
+- 🕹️ **Object-Oriented Programming (OOP)**  
+- 🌐 **APIs and Web Scraping** (Requests, BeautifulSoup, Selenium)  
+- 🧮 **Data Handling & Analysis** (CSV, Pandas, NumPy, Matplotlib, Power BI)  
+- 📋 **Databases** (SQLAlchemy, MySQL, SQLite)  
+- 🛡️ **Error Handling & Debugging**  
+- ⚙️ **Flask & Web Development**  
+  - 🎨 **Jinja Templating**  
+  - 📋 **WTForms & Form Validation**  
+  - 🎨 **Bootstrap Integration for UI**  
+- 🔐 **User Authentication & Security**  
+  - 🛂 **User Registration & Login**  
+  - 🔑 **Password Hashing with Flask-Bcrypt**  
+  - 🔐 **Session Management & Flask-Login**  
+  - 🛡️ **Role-Based Access Control (RBAC)**  
+  - 📩 **Email Verification & Reset Password (Flask-Mail)**
 
 ---
 
